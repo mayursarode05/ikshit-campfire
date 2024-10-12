@@ -1,4 +1,0 @@
-[[redirects]]
-from = "/campfire-ui/*"
-to = "/campfire-ui/index.html"
-status = 200
