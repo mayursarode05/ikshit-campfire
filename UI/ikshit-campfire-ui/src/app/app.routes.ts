@@ -5,7 +5,7 @@ import { AboutUsComponent } from './shared/components/about-us/about-us.componen
 import { ContactUsComponent } from './shared/components/contact-us/contact-us.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: 'index', pathMatch: 'full' },
+    { path: '', redirectTo: '/index', pathMatch: 'full' },
     { path: 'index', component:IndexComponent },
     { path: 'contactUs', component:ContactUsComponent },
     { path: 'aboutUs', component:AboutUsComponent },
